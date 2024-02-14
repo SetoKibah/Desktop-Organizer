@@ -2,7 +2,7 @@ import os
 import shutil
 
 # Define the path to the Downloads folder
-downloads_folder = "C:/Users/Bradley/Downloads"
+downloads_folder = "Your Downloads Path"
 
 # Create a dictionary to map file extensions to their respective categories
 file_categories = {
@@ -65,10 +65,14 @@ print("Files organized successfully!")
 
 
 # Define the path to the Desktop folder
-desktop_folder = "C:/Users/Bradley/Desktop"
+desktop_folder = "Your Desktop Path"
 
 # Iterate over all files on the Desktop
 for filename in os.listdir(desktop_folder):
+    # Ignore the desktop.ini file
+    if filename.lower() == "desktop.ini":
+        continue
+    
     file_path = os.path.join(desktop_folder, filename)
     
     # Skip directories
