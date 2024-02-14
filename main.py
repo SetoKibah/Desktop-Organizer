@@ -1,8 +1,9 @@
 import os
 import shutil
 
-# Define the path to the Downloads folder
+###### Define the path to the Downloads and Desktop folders
 downloads_folder = "Your Downloads Path"
+desktop_folder = "Your Desktop Path"
 
 # Create a dictionary to map file extensions to their respective categories
 file_categories = {
@@ -63,9 +64,6 @@ for filename in os.listdir(downloads_folder):
 
 print("Files organized successfully!")
 
-
-# Define the path to the Desktop folder
-desktop_folder = "Your Desktop Path"
 
 # Iterate over all files on the Desktop
 for filename in os.listdir(desktop_folder):

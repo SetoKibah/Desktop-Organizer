@@ -17,7 +17,8 @@ To use the `main.py` script, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Open a terminal or command prompt and navigate to the repository directory.
-3. Run the script by executing the following command:
+3. Add the path for your Downloads and Desktop directories at the top of the code.
+4. Run the script by executing the following command:
 
    ```bash
    python main.py
