@@ -1,6 +1,6 @@
-# Downloads Organizer
+# Downloads/Desktop Organizer
 
-This repository contains a Python script called `main.py` that helps organize your downloaded files.
+This repository contains a Python script called `main.py` that helps organize your downloaded files, as well as your desktop files.
 
 ## Functionality
 
